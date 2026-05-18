@@ -2,7 +2,7 @@ import express from "express";
 import cors from "cors";
 import dotenv from "dotenv";
 import { ConnectMongoDb } from "./Utils/mongodb.js";
-import URLRoute from "./Routes/urls.js";
+import URLRoute from "./Routes/url.js";
 
 dotenv.config();
 
